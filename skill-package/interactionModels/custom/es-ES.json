@@ -21,19 +21,11 @@
                 },
                 {
                     "name": "AMAZON.PauseIntent",
-                    "samples": [
-                        "pausa",
-                        "detente",
-                        "espera"
-                    ]
+                    "samples": []
                 },
                 {
                     "name": "AMAZON.ResumeIntent",
-                    "samples": [
-                        "continúa",
-                        "sigue",
-                        "reanuda"
-                    ]
+                    "samples": []
                 },
                 {
                     "name": "StartGameIntent",
@@ -76,12 +68,7 @@
                 },
                 {
                     "name": "VerifyCardIntent",
-                    "slots": [
-                        {
-                            "name": "numbers",
-                            "type": "AMAZON.NUMBER"
-                        }
-                    ],
+                    "slots": [],
                     "samples": [
                         "tengo línea",
                         "tengo bingo",
