@@ -20,6 +20,23 @@
                     "samples": []
                 },
                 {
+                    "name": "ContinueIntent",
+                    "slots": [],
+                    "samples": [
+                        "continúa",
+                        "continuar",
+                        "sigue",
+                        "siguiente",
+                        "siguiente bola",
+                        "saca bola",
+                        "saca otra",
+                        "dame otra",
+                        "otra bola",
+                        "dale",
+                        "vamos"
+                    ]
+                },
+                {
                     "name": "AMAZON.PauseIntent",
                     "samples": []
                 },
