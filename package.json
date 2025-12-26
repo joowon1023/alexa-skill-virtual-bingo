@@ -1,0 +1,24 @@
+{
+    "name": "virtual-bingo-alexa-skill",
+    "version": "1.0.0",
+    "description": "Skill de Alexa para jugar al Bingo Virtual con múltiples modos de juego, verificación de cartones y efectos de sonido profesionales",
+    "main": "lambda/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "alexa",
+        "alexa-skill",
+        "bingo",
+        "juego",
+        "entretenimiento",
+        "español"
+    ],
+    "author": "Jose Alvarez Dev",
+    "license": "MIT",
+    "dependencies": {
+        "ask-sdk-core": "^2.14.0",
+        "ask-sdk-model": "^1.42.0",
+        "ask-sdk-s3-persistence-adapter": "^2.14.0"
+    }
+}

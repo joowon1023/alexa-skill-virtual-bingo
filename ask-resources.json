@@ -1,0 +1,39 @@
+{
+    "deploy_settings": {
+        "default": {
+            "skill_id": "",
+            "was_cloned": false,
+            "merge": {},
+            "resources": {
+                "manifest": {
+                    "eTag": ""
+                },
+                "interactionModel": {
+                    "es-ES": {
+                        "eTag": ""
+                    },
+                    "es-MX": {
+                        "eTag": ""
+                    },
+                    "es-US": {
+                        "eTag": ""
+                    }
+                },
+                "lambda": [
+                    {
+                        "alexaUsage": [
+                            "custom/default"
+                        ],
+                        "arn": "",
+                        "awsRegion": "us-east-1",
+                        "codeUri": "lambda",
+                        "functionName": "ask-virtual-bingo-default",
+                        "handler": "index.handler",
+                        "revisionId": "",
+                        "runtime": "nodejs16.x"
+                    }
+                ]
+            }
+        }
+    }
+}

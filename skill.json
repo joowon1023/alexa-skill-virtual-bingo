@@ -1,0 +1,115 @@
+{
+    "manifest": {
+        "publishingInformation": {
+            "locales": {
+                "es-ES": {
+                    "summary": "Juega al bingo con Alexa cantando las bolas automáticamente",
+                    "examplePhrases": [
+                        "Alexa, abre virtual bingo",
+                        "Alexa, pregunta a virtual bingo que inicie una partida rápida",
+                        "Alexa, pide a virtual bingo que verifique mi cartón"
+                    ],
+                    "keywords": [
+                        "bingo",
+                        "juego",
+                        "familia",
+                        "entretenimiento",
+                        "números",
+                        "casino",
+                        "diversión",
+                        "sorteo"
+                    ],
+                    "name": "Virtual Bingo",
+                    "description": "Virtual Bingo es tu cantador de bingo personal. Alexa cantará las bolas automáticamente con frases tradicionales españolas, efectos de sonido profesionales y múltiples modos de juego. Características: ⭐ Cuatro velocidades de juego (Lento, Normal, Rápido, Turbo) ⭐ Frases tradicionales del bingo español ⭐ Verificación automática de cartones ganadores ⭐ Histórico de números cantados ⭐ Estadísticas de partidas ⭐ Pausa y reanudación ⭐ Efectos de sonido inmersivos. Perfecto para jugar en familia o con amigos.",
+                    "smallIconUri": "file://assets/images/icon_108.png",
+                    "largeIconUri": "file://assets/images/icon_512.png"
+                },
+                "es-MX": {
+                    "summary": "Juega al bingo con Alexa cantando las bolas automáticamente",
+                    "examplePhrases": [
+                        "Alexa, abre virtual bingo",
+                        "Alexa, pregunta a virtual bingo que inicie una partida rápida",
+                        "Alexa, pide a virtual bingo que verifique mi cartón"
+                    ],
+                    "keywords": [
+                        "bingo",
+                        "juego",
+                        "familia",
+                        "entretenimiento",
+                        "números",
+                        "casino",
+                        "diversión",
+                        "sorteo"
+                    ],
+                    "name": "Virtual Bingo",
+                    "description": "Virtual Bingo es tu cantador de bingo personal. Alexa cantará las bolas automáticamente con frases tradicionales, efectos de sonido profesionales y múltiples modos de juego. Características: ⭐ Cuatro velocidades de juego (Lento, Normal, Rápido, Turbo) ⭐ Frases tradicionales del bingo ⭐ Verificación automática de cartones ganadores ⭐ Histórico de números cantados ⭐ Estadísticas de partidas ⭐ Pausa y reanudación ⭐ Efectos de sonido inmersivos. Perfecto para jugar en familia o con amigos.",
+                    "smallIconUri": "file://assets/images/icon_108.png",
+                    "largeIconUri": "file://assets/images/icon_512.png"
+                },
+                "es-US": {
+                    "summary": "Juega al bingo con Alexa cantando las bolas automáticamente",
+                    "examplePhrases": [
+                        "Alexa, abre virtual bingo",
+                        "Alexa, pregunta a virtual bingo que inicie una partida rápida",
+                        "Alexa, pide a virtual bingo que verifique mi cartón"
+                    ],
+                    "keywords": [
+                        "bingo",
+                        "juego",
+                        "familia",
+                        "entretenimiento",
+                        "números",
+                        "casino",
+                        "diversión",
+                        "sorteo"
+                    ],
+                    "name": "Virtual Bingo",
+                    "description": "Virtual Bingo es tu cantador de bingo personal. Alexa cantará las bolas automáticamente con frases tradicionales, efectos de sonido profesionales y múltiples modos de juego. Características: ⭐ Cuatro velocidades de juego (Lento, Normal, Rápido, Turbo) ⭐ Frases tradicionales del bingo ⭐ Verificación automática de cartones ganadores ⭐ Histórico de números cantados ⭐ Estadísticas de partidas ⭐ Pausa y reanudación ⭐ Efectos de sonido inmersivos. Perfecto para jugar en familia o con amigos.",
+                    "smallIconUri": "file://assets/images/icon_108.png",
+                    "largeIconUri": "file://assets/images/icon_512.png"
+                }
+            },
+            "isAvailableWorldwide": false,
+            "testingInstructions": "Simplemente abre el skill y sigue las instrucciones. Puedes decir 'iniciar partida rápida' o elegir la velocidad que prefieras. Di 'ayuda' para conocer todos los comandos disponibles.",
+            "category": "GAMES",
+            "distributionCountries": [
+                "ES",
+                "MX",
+                "US"
+            ]
+        },
+        "apis": {
+            "custom": {
+                "endpoint": {
+                    "sourceDir": "lambda"
+                },
+                "interfaces": [
+                    {
+                        "type": "AUDIO_PLAYER"
+                    }
+                ],
+                "regions": {
+                    "EU": {
+                        "endpoint": {
+                            "sourceDir": "lambda"
+                        }
+                    },
+                    "NA": {
+                        "endpoint": {
+                            "sourceDir": "lambda"
+                        }
+                    }
+                }
+            }
+        },
+        "manifestVersion": "1.0",
+        "permissions": [],
+        "privacyAndCompliance": {
+            "allowsPurchases": false,
+            "isExportCompliant": true,
+            "containsAds": false,
+            "isChildDirected": false,
+            "usesPersonalInfo": false
+        }
+    }
+}

@@ -1,0 +1,212 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "virtual bingo",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PauseIntent",
+                    "samples": [
+                        "pausa",
+                        "detente",
+                        "espera"
+                    ]
+                },
+                {
+                    "name": "AMAZON.ResumeIntent",
+                    "samples": [
+                        "continúa",
+                        "sigue",
+                        "reanuda"
+                    ]
+                },
+                {
+                    "name": "StartGameIntent",
+                    "slots": [
+                        {
+                            "name": "speed",
+                            "type": "SPEED_TYPE"
+                        }
+                    ],
+                    "samples": [
+                        "inicia una partida {speed}",
+                        "empieza una partida {speed}",
+                        "nueva partida {speed}",
+                        "jugar {speed}",
+                        "comenzar partida {speed}",
+                        "iniciar juego {speed}",
+                        "empezar juego {speed}",
+                        "nueva partida",
+                        "empezar",
+                        "jugar",
+                        "comenzar"
+                    ]
+                },
+                {
+                    "name": "ChangeSpeedIntent",
+                    "slots": [
+                        {
+                            "name": "speed",
+                            "type": "SPEED_TYPE"
+                        }
+                    ],
+                    "samples": [
+                        "cambiar a modo {speed}",
+                        "cambiar velocidad a {speed}",
+                        "velocidad {speed}",
+                        "modo {speed}",
+                        "más {speed}",
+                        "hazlo {speed}"
+                    ]
+                },
+                {
+                    "name": "VerifyCardIntent",
+                    "slots": [
+                        {
+                            "name": "numbers",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "tengo línea",
+                        "tengo bingo",
+                        "verificar cartón",
+                        "comprobar cartón",
+                        "verificar mis números",
+                        "comprobar mis números",
+                        "he ganado",
+                        "cantar línea",
+                        "cantar bingo"
+                    ]
+                },
+                {
+                    "name": "RepeatLastNumberIntent",
+                    "slots": [],
+                    "samples": [
+                        "repite el último número",
+                        "cuál fue el último",
+                        "último número",
+                        "qué número dijiste",
+                        "repite",
+                        "cuál era"
+                    ]
+                },
+                {
+                    "name": "GetHistoryIntent",
+                    "slots": [],
+                    "samples": [
+                        "qué números han salido",
+                        "números cantados",
+                        "histórico",
+                        "números que han salido",
+                        "lista de números",
+                        "cuáles han salido",
+                        "dime los números"
+                    ]
+                },
+                {
+                    "name": "GetStatsIntent",
+                    "slots": [],
+                    "samples": [
+                        "estadísticas",
+                        "mis estadísticas",
+                        "cuántas partidas",
+                        "datos",
+                        "resultados"
+                    ]
+                },
+                {
+                    "name": "EndGameIntent",
+                    "slots": [],
+                    "samples": [
+                        "terminar partida",
+                        "finalizar partida",
+                        "acabar partida",
+                        "terminar juego",
+                        "finalizar",
+                        "salir de la partida"
+                    ]
+                },
+                {
+                    "name": "AboutIntent",
+                    "slots": [],
+                    "samples": [
+                        "acerca de",
+                        "información",
+                        "qué es esto",
+                        "sobre el skill"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "SPEED_TYPE",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "lento",
+                                "synonyms": [
+                                    "lenta",
+                                    "despacio",
+                                    "tranquilo",
+                                    "tranquila",
+                                    "pausado",
+                                    "pausada"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "normal",
+                                "synonyms": [
+                                    "medio",
+                                    "media",
+                                    "estándar",
+                                    "clásico",
+                                    "clásica"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "rápido",
+                                "synonyms": [
+                                    "rápida",
+                                    "veloz",
+                                    "deprisa"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "turbo",
+                                "synonyms": [
+                                    "muy rápido",
+                                    "muy rápida",
+                                    "súper rápido",
+                                    "frenético",
+                                    "frenética"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
